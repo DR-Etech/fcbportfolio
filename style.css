@@ -1,0 +1,63 @@
+/*
+	SYNTAX
+		selector{
+			property: value;
+		}
+*/
+
+*{
+	font-family: "Roboto",sans-serif;
+}		
+h1, h2{
+	font-variant: "Montserrat",sans-serif;
+}
+
+img{
+		height: 250px;
+		width: 250px;
+		border: 10px solid gray;
+		border-radius: 100%;
+}
+
+#landing{
+	/**vh-viewportheight depends on the height of the user's monitor*/
+	height: 80vh;
+	
+	display: flex;
+
+	flex-direction: column;
+	/*alligns the flex item horizontally*/
+	align-items: center;
+	/*alligns the flex items vertically*/
+	justify-content: center;
+}
+
+#gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	border-radius: 6px;
+	/*when using hexadecimal code for color, a hash before the code is required*/
+	color: #ffffff;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+}
+h2{
+	color: #007bff;
+}
+.tools{
+	border: 5px solid #f2f2f2;
+	height: 200px;
+	width: 75%;
+	/*% depends on the with of the parent element*/
+	margin: 20px;
+	padding: 25px;
+}
